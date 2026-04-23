@@ -3,6 +3,12 @@ name: Deploy to GitHub Pages
 on:
   push:
     branches: ['main']
+    paths:
+      - 'src/**'
+      - 'package.json'
+      - 'vite.config.ts'
+      - 'tsconfig.json'
+      - 'postcss.config.mjs'
   workflow_dispatch:
 
 permissions:
