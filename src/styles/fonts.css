@@ -1,0 +1,11 @@
+@font-face {
+  font-family: "YuWei";
+  src: url("../assets/fonts/YuWei.TTF") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+.font-yuwei {
+  font-family: "YuWei", ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+}
