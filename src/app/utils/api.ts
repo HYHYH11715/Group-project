@@ -1,12 +1,7 @@
 // API 服务文件，用于处理后端接口调用
 
-// 动态获取 API 基础地址
-const getApiBaseUrl = () => {
-  // 统一使用 Vercel 后端地址
-  return 'https://backend-six-vert-19.vercel.app/api';
-};
-
-const API_BASE_URL = getApiBaseUrl();
+// 后端服务器地址
+const API_BASE_URL = 'https://backend-six-vert-19.vercel.app/api';
 
 // 登录接口
 export async function login(email: string, password: string) {
